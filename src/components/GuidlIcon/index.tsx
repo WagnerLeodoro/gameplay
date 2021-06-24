@@ -6,7 +6,7 @@ import { styles } from './styles';
 export function GuildIcon() {
     return (
         <Image
-            source={{ uri: "https://i.pravatar.cc/150" }}
+            source={{ uri: "https://logodownload.org/wp-content/uploads/2017/11/discord-logo-icone.png" }}
             style={styles.image}
             resizeMode='cover'
         />
