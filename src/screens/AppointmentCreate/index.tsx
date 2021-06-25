@@ -9,7 +9,6 @@ import { styles } from './styles';
 import { Header } from '../../components/Header';
 import { TextArea } from '../../components/TextArea';
 import { GuildIcon } from '../../components/GuidlIcon';
-import { Background } from '../../components/Background';
 import { SmallInput } from '../../components/SmallInput';
 import { CategorySelect } from '../../components/CategorySelect';
 import { Button } from '../../components/Button';
