@@ -5,7 +5,7 @@ import { Feather } from '@expo/vector-icons';
 import { styles } from './styles';
 import { theme } from '../../global/styles/theme';
 
-import { GuildIcon } from  '../GuildIcon';
+import { GuildIcon } from  '../GuidlIcon';
 
 export type GuildProps = {
     id: string;
@@ -18,14 +18,14 @@ type Props = TouchableOpacityProps & {
     data: GuildProps;
 }
 
-export default function Guild({data, ...rest}: Props) {
+export function Guild({data, ...rest}: Props) {
     return (
         <TouchableOpacity
             style={styles.container}
             activeOpacity={0.7}
             {...rest}
         >
-            <GuildIcon />
+            <GuildIcon guildId={data.id} iconId={data.icon}/>
 
             <View style={styles.content}>
                 <View>

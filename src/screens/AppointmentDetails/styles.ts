@@ -8,8 +8,7 @@ export const styles = StyleSheet.create({
     },
     banner: {
         width: '100%',
-        height: 234,
-        marginBottom: 20,
+        height: 200,
     },
     bannerContent: {
         flex: 1,
@@ -26,15 +25,16 @@ export const styles = StyleSheet.create({
         fontSize: 13,
         fontFamily: theme.fonts.text400,
         color: theme.colors.heading,
+        lineHeight: 21,
     },
     members: {
         marginLeft: 24,
-        marginTop: 24,
+        marginTop: 14,
     },
     footer: {
         paddingHorizontal: 24,
         paddingVertical: 20,
-        marginBottom: getBottomSpace(),
+        marginBottom: getBottomSpace() -8,
     },
 });
 
